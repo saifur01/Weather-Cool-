@@ -9,7 +9,7 @@ document.getElementById('search-btn').addEventListener('click', function(){
 
     
 
-    fetch('http://api.openweathermap.org/data/2.5/weather?q=' + locationSearch +'&appid=872485f8798de1abb82eb99aa41d877e')
+    fetch('https://api.openweathermap.org/data/2.5/weather?q=' + locationSearch +'&appid=872485f8798de1abb82eb99aa41d877e')
     .then(Response => Response.json())
     .then(data =>{
         
